@@ -12,11 +12,10 @@ The extracted text is added to a set (unique elements) and then printed since a 
 
 ```html
 <p> 
-  " Paragraph Containing Citation "
-  <sup class="reference"> 
-    <a href="#cite_note-*\w*-+'+citation+'\$"> 
-    </a> 
-   </sup> 
+    " Paragraph Containing Citation "
+    <sup class="reference"> 
+        <a href="#cite_note-*\w*-+'+citation+'\$"> </a> 
+    </sup> 
 </p> 
 
 ```
