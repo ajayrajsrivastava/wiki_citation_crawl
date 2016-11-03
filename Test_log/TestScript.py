@@ -32,10 +32,10 @@ def getLines(citation):
     
 
 def printCitations(startIndex,para):
-
+    
     endIndex = para[startIndex:].find(']')
     print para[startIndex+1:startIndex+endIndex] #[Any num of digits] 
-    nextCit = endIndex+1
+    nextCit = startIndex+endIndex+1 
     if nextCit<= len(para)-1 and para[nextCit] == '[':   #In case of Multiple Citations eg. [1][2][3]...
         printCitations(nextCit,para)
             
