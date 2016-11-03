@@ -1,0 +1,152 @@
+https://en.wikipedia.org/wiki/Machine_learning
+1
+1
+Machine learning is the subfield of computer science that "gives computers the ability to learn without being explicitly programmed" (Arthur Samuel, 1959)
+
+
+1
+2
+ Evolved from the study of pattern recognition and computational learning theory in artificial intelligence,
+
+
+1
+3
+ machine learning explores the study and construction of algorithms that can learn from and make predictions on data
+
+
+1
+4
+Another categorization of machine learning tasks arises when one considers the desired output of a machine-learned system:
+ Another example is learning to play a game by playing against an opponent
+ where the latter subfield focuses more on exploratory data analysis and is known as unsupervised learning
+ – such algorithms overcome following strictly static program instructions by making data-driven predictions or decisions,
+
+
+1
+5
+
+
+1
+6
+ Machine learning is sometimes conflated with data mining,
+
+
+1
+7
+:vii
+
+
+1
+8
+ These analytical models allow researchers, data scientists, engineers, and analysts to "produce reliable, repeatable decisions and results" and uncover "hidden insights" through learning from historical relationships and trends in the data
+
+
+1
+9
+ Mitchell provided a widely quoted, more formal definition: "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P if its performance at tasks in T, as measured by P, improves with experience E
+
+
+1
+10
+ This definition is notable for its defining machine learning in fundamentally operational rather than cognitive terms, thus following Alan Turing's proposal in his paper "Computing Machinery and Intelligence" that the question "Can machines think?" be replaced with the question "Can machines do what we (as thinking entities) can do?"
+
+
+1
+11
+ Probabilistic systems were plagued by theoretical and practical problems of data acquisition and representation
+ Their main success came in the mid-1980s with the reinvention of backpropagation
+ Work on symbolic/knowledge-based learning did continue within AI, leading to inductive logic programming, but the more statistical line of research was now outside the field of AI proper, in pattern recognition and information retrieval
+ These are
+ Probabilistic reasoning was also employed, especially in automated medical diagnosis
+
+
+1
+12
+ It shifted focus away from the symbolic approaches it had inherited from AI, and toward methods and models borrowed from statistics and probability theory
+:488 By 1980, expert systems had come to dominate AI, and statistics was out of favor
+
+
+1
+13
+ The difference between the two fields arises from the goal of generalization: while optimization algorithms can minimize the loss on a training set, machine learning is concerned with minimizing the loss on unseen samples
+
+
+1
+14
+ He also suggested the term data science as a placeholder to call the overall field
+ Jordan, the ideas of machine learning, from methodological principles to theoretical tools, have had a long pre-history in statistics
+
+
+1
+15
+Leo Breiman distinguished two statistical modelling paradigms: data model and algorithmic model,
+
+
+1
+16
+Some statisticians have adopted methods from machine learning, leading to a combined field that they call statistical learning
+
+
+1
+17
+A core objective of a learner is to generalize from its experience
+
+
+1
+18
+A core objective of a learner is to generalize from its experience
+
+
+1
+19
+ But if the hypothesis is too complex, then the model is subject to overfitting and generalization will be poorer
+
+
+1
+20
+ Some successful applications of deep learning are computer vision and speech recognition
+
+2
+Machine learning is the subfield of computer science that "gives computers the ability to learn without being explicitly programmed" (Arthur Samuel, 1959)
+1
+
+
+2
+Evolved from the study of pattern recognition and computational learning theory in artificial intelligence 
+2
+
+
+2
+such algorithms overcome following strictly static program instructions by making data-driven predictions or decisions
+4
+
+
+2
+Machine learning is employed in a range of computing tasks where designing and programming explicit algorithms is unfeasible; example applications include spam filtering, optical character recognition (OCR)
+5
+
+
+2
+ Machine learning is sometimes conflated with data mining
+6
+
+2
+where the latter subfield focuses more on exploratory data analysis and is known as unsupervised learning
+4
+
+
+2
+hese analytical models allow researchers, data scientists, engineers, and analysts to "produce reliable, repeatable decisions and results" and uncover "hidden insights" through learning from historical relationships and trends in the data
+8
+
+
+2
+Tom M. Mitchell provided a widely quoted, more formal definition: "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P if its performance at tasks in T, as measured by P, improves with experience E.
+9
+
+
+2
+his definition is notable for its defining machine learning in fundamentally operational rather than cognitive terms, thus following Alan Turing's proposal in his paper "Computing Machinery and Intelligence" that the question "Can machines think?" be replaced with the question "Can machines do what we (as thinking entities) can do?
+10
+
+
