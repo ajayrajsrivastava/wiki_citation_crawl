@@ -8,7 +8,7 @@ For query of type '1': All the a-tags which have 'href' attribute of type -> '#c
 are taken and the text portion of their parent's parent ('sup'->'p'-paragraph) is converted to type 'str' from unicode.The sentence from paragraph('para') is then extracted using another regex pattern.
 
 NOTE:
-The extracted text is added to a set (unique elements) and then printed since a paragraph may contain more than one same citation. Also, a defintion setLink() is used in the beginning to add an element '$' in the end of 'href' of all a-tags to denote end of the regex pattern 'refPattern'. Example: #cite_note-Kruger-1 gives #cite_note-Kruger-11,#cite_note-Kruger-12,#cite_note-Kruger-13 etc , therefore,#cite_note-Kruger-1$ is used.
+The extracted text is added to a set (unique elements) and then printed since a paragraph may contain more than one same citation. Also, a defintion setLink() is used in the beginning to add an element '$' in the end of 'href' of all a-tags to denote end of the regex pattern 'refPattern'. Example: Regex for #cite_note-\w-+'+1 gives #cite_note-Kruger-11,#cite_note-Kruger-12,#cite_note-Kruger-13 etc , therefore,#cite_note-Kruger-1$ is used.
 
 ```html
 <p> 
