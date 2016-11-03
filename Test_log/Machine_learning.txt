@@ -150,3 +150,152 @@ his definition is notable for its defining machine learning in fundamentally ope
 10
 
 
+2
+Probabilistic reasoning was also employed, especially in automated medical diagnosis
+11
+
+
+2
+ Probabilistic systems were plagued by theoretical and practical problems of data acquisition and representation
+11
+
+
+2
+By 1980, expert systems had come to dominate AI, and statistics was out of favor
+12
+
+
+2
+Work on symbolic/knowledge-based learning did continue within AI, leading to inductive logic programming, but the more statistical line of research was now outside the field of AI proper, in pattern recognition and information retrieval
+11
+
+
+2
+ Their main success came in the mid-1980s with the reinvention of backpropagation
+11
+
+
+2
+It shifted focus away from the symbolic approaches it had inherited from AI, and toward methods and models borrowed from statistics and probability theory
+12
+
+
+2
+The difference between the two fields arises from the goal of generalization: while optimization algorithms can minimize the loss on a training set, machine learning is concerned with minimizing the loss on unseen samples
+13
+
+
+2
+ According to Michael I. Jordan, the ideas of machine learning, from methodological principles to theoretical tools, have had a long pre-history in statistics
+14
+
+
+2
+ He also suggested the term data science as a placeholder to call the overall field
+14
+
+
+2
+Leo Breiman distinguished two statistical modelling paradigms: data model and algorithmic model
+15
+
+
+2
+Some statisticians have adopted methods from machine learning, leading to a combined field that they call statistical learning
+16
+
+
+2
+A core objective of a learner is to generalize from its experience
+17
+18
+
+
+2
+But if the hypothesis is too complex, then the model is subject to overfitting and generalization will be poorer
+19
+
+
+2
+Some successful applications of deep learning are computer vision and speech recognition
+20
+
+
+2
+ Multilinear subspace learning algorithms aim to learn low-dimensional representations directly from tensor representations for multidimensional data, without reshaping them into (high-dimensional) vectors
+21
+
+
+2
+It has been argued that an intelligent machine is one that learns a representation that disentangles the underlying factors of variation that explain the observed data
+22
+
+
+2
+Learning a dictionary along with sparse representations is strongly NP-hard and also difficult to solve approximately
+23
+
+
+2
+The key idea is that a clean image patch can be sparsely represented by an image dictionary, but the noise cannot
+24
+
+
+2
+In machine learning, genetic algorithms found some uses in the 1980s and 1990s
+25
+26
+
+
+2
+Vice versa, machine learning techniques have been used to improve the performance of genetic and evolutionary algorithms
+27
+
+
+2
+This is in contrast to other machine learners that commonly identify a singular model that can be universally applied to any instance in order to make a prediction
+28
+
+
+2
+They seek to identify a set of context-dependent rules that collectively store and apply knowledge in a piecewise manner in order to make predictions
+29
+
+
+2
+A joint team made up of researchers from AT&T Labs-Research in collaboration with the teams Big Chaos and Pragmatic Theory built an ensemble model to win the Grand Prize in 2009 for $1 million
+30
+
+
+2
+Shortly after the prize was awarded, Netflix realized that viewers' ratings were not the best indicators of their viewing patterns ("everything is a recommendation") and they changed their recommendation engine accordingly
+31
+
+
+2
+The article describes Rebellion Research's prediction of the financial crisis and economic recovery
+32
+
+
+2
+In 2012 co-founder of Sun Microsystems Vinod Khosla predicted that 80% of medical doctors jobs would be lost in the next two decades to automated machine learning medical diagnostic software
+[33
+
+
+2
+In 2014 it has been reported that a machine learning algorithm has been applied in Art History to study fine art paintings, and that it may have revealed previously unrecognized influences between artists
+34
+
+
+2
+Higher AUC is associated with a better performing model
+35
+
+
+2
+Systems which are trained on datasets collected with biases may exhibit these biases upon use, thus digitizing cultural prejudices such as institutional racism and classism
+36
+
+
+
+
