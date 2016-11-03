@@ -19,4 +19,4 @@ The extracted text is added to a set (unique elements) and then printed since a 
 </p> 
 
 ```
-For query of type '2' : Format assumption -> "Lines".[1] or "Lines".[1][2][3]..(Multiple Citations) . Function getCitation(lines) calculates the index of lines in para (if found) and passes it to function printCitation(index,para) which prints the citation number enclosed within square brackets. NOTE : Function printCitation(index,para) is recursively called in case of multiple citations.
+For query of type '2' : Format assumption -> "Lines"(.," anything)[1] or "Lines"(.," anything)[1][2][3]..(Multiple Citations) . Function getCitation(lines) calculates the index of lines in para (if found) + skips 1 index(for .," or anything )and passes it to function printCitation(index,para) which prints the citation number enclosed within square brackets. NOTE : Function printCitation(index,para) is recursively called in case of multiple citations.
