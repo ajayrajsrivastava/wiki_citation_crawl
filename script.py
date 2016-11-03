@@ -38,8 +38,8 @@ class WikiCrawl:
     
     def printCitations(self,startIndex,para):
     
-        endIndex = para[startIndex:].find(']')
-        print para[startIndex+1:startIndex+endIndex] #[Any num of digits] 
+        endIndex = para[startIndex:].find(']') #']'
+        print para[startIndex+1:startIndex+endIndex] #[Digits] 
         nextCit = startIndex+endIndex+1 
         if nextCit<= len(para)-1 and para[nextCit] == '[':   #In case of Multiple Citations eg. [1][2][3]...
             self.printCitations(nextCit,para)
@@ -55,13 +55,13 @@ class WikiCrawl:
                 startIndex = para.find(lines)+len(lines)+1 #'['
                 self.printCitations(startIndex,para)
     
-            if InPara != True:
-                #Search Table
-                for td_tags in self.soup.find_all('td'):
-                    tableText = str(td_tags.text.encode('utf-8'))
-                    if lines in tableText:
-                        startIndex = tableText.find(lines)+len(lines) #'['
-                        self.printCitations(startIndex,tableText)
+        if InPara != True:
+            #Search Table
+            for td_tags in self.soup.find_all('td'):
+                tableText = str(td_tags.text.encode('utf-8'))
+                if lines in tableText:
+                    startIndex = tableText.find(lines)+len(lines) #'['
+                    self.printCitations(startIndex,tableText)
 
     
     def getQuery(self):
